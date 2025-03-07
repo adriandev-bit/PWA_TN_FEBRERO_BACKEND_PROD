@@ -4,7 +4,6 @@ import authRouter from "./routes/auth.router.js";
 import mongoose from "./config/mongoDB.config.js";
 import { sendMail } from "./utils/mailer.utils.js";
 import cors from 'cors'
-import { verifyLuckyMiddleware } from "./middlewares/verifyLuckyMiddleware.js";
 import { authMiddleware } from "./middlewares/authMiddleware.js";
 import workspace_router from "./routes/workspace.router.js";
 import channelRouter from "./routes/channel.router.js";
